@@ -1,0 +1,16 @@
+PODS:
+  - bremoji (0.1.0)
+
+DEPENDENCIES:
+  - bremoji (from `../`)
+
+EXTERNAL SOURCES:
+  bremoji:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  bremoji: 720bcf22e3d4e373b1e71151b5912813de687cc7
+
+PODFILE CHECKSUM: cc97d01c8e14fd70e0eef76aeafe32f1bb330bed
+
+COCOAPODS: 1.11.2

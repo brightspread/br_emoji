@@ -1,0 +1,6 @@
+framework module Pods_bremoji_Tests {
+  umbrella header "Pods-bremoji_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

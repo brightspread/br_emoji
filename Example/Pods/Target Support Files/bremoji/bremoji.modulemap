@@ -1,0 +1,6 @@
+framework module bremoji {
+  umbrella header "bremoji-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D823AF136BEBEF157D544B5D3073E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		52F70FD6B3AD05CEEBF4424CE434B53D /* Pods-bremoji_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C7071B011113DE3C5526613D0C9FF2 /* Pods-bremoji_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A124C901E45B4D44F70368DE32BC15 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E92D0E9886821AF3F566427C1C8B4 /* ReplaceMe.swift */; };
+		7B350947030D6EE6D976BA21C39C2E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		90650152F65A774198F51955F4BF1EEE /* bremoji-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB2186FFD295758610C47706B3CB34B /* bremoji-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45458A01B3F3754ED9F4B8DD205CBEB /* bremoji-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F92B4DAC0B711E704955210A3F2E7 /* bremoji-dummy.m */; };
+		A7447D4EFACF31FCE0E6240A759C49AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B4B2775F2BF896F91E32230A6611E793 /* Pods-bremoji_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3271FEE88A42F585BA1C4CDA12E06 /* Pods-bremoji_Tests-dummy.m */; };
+		D0694948676834E3FAC9FF5216B37057 /* Pods-bremoji_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D94C447B1670745BA6D2C823E7611 /* Pods-bremoji_Example-dummy.m */; };
+		D7420B41EF6BA68982EDF924E2DB93CF /* Pods-bremoji_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5297B560E590570588243BF15EEE9ECC /* Pods-bremoji_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21B06C11C621304846C6E0C7E2ACA408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FEFA2AA46AC8335121C3D1AAAA33CF;
+			remoteInfo = "Pods-bremoji_Example";
+		};
+		9BF55F1F0E9B87A7D5AAD9B761B8853C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E50501783B9CE0AC78CD01F8A7BAC6B;
+			remoteInfo = bremoji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029E909628F58867383CD4A262ECC113 /* Pods-bremoji_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bremoji_Example-frameworks.sh"; sourceTree = "<group>"; };
+		02AC1DD203E12ECEDAACC0A137039EC5 /* bremoji.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = bremoji.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		12DB0FB71DE69C6A21995F6E33F15933 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1F665A121A3454CD78CE5798252DB417 /* Pods-bremoji_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bremoji_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F08E5E7629F153FA5CAF67B9AD4C806 /* Pods-bremoji_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bremoji_Example-Info.plist"; sourceTree = "<group>"; };
+		4A2E92D0E9886821AF3F566427C1C8B4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = bremoji/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4BBDFDEF55D6C6F1050705DA0B17F68A /* Pods-bremoji_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-bremoji_Example"; path = Pods_bremoji_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5297B560E590570588243BF15EEE9ECC /* Pods-bremoji_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bremoji_Example-umbrella.h"; sourceTree = "<group>"; };
+		594D94C447B1670745BA6D2C823E7611 /* Pods-bremoji_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bremoji_Example-dummy.m"; sourceTree = "<group>"; };
+		629F92B4DAC0B711E704955210A3F2E7 /* bremoji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "bremoji-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C7071B011113DE3C5526613D0C9FF2 /* Pods-bremoji_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bremoji_Tests-umbrella.h"; sourceTree = "<group>"; };
+		78D43F2F91A4C43C500724DF07368D92 /* Pods-bremoji_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bremoji_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80C109F8BD7980C1B053BAD9B7E9EC67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		87589A4526CD42B0A41F15D802716D7F /* Pods-bremoji_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bremoji_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AA3271FEE88A42F585BA1C4CDA12E06 /* Pods-bremoji_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bremoji_Tests-dummy.m"; sourceTree = "<group>"; };
+		8EB2186FFD295758610C47706B3CB34B /* bremoji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "bremoji-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40478B151B6751F2D77DF4AAC8D36DC /* bremoji-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "bremoji-prefix.pch"; sourceTree = "<group>"; };
+		B0A9BB74B9E6A0ADEB1406FBAF5AE21E /* bremoji */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = bremoji; path = bremoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D5D3538DD2794B04636AFD3217414B /* bremoji-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "bremoji-Info.plist"; sourceTree = "<group>"; };
+		B550C079D71CDCCBF2E7208EF6A7B2FB /* Pods-bremoji_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bremoji_Tests-Info.plist"; sourceTree = "<group>"; };
+		B7BE306790168DDD7AF299857D4A1A2D /* Pods-bremoji_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bremoji_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC15A3864991D9C6028BB369BDD92D69 /* Pods-bremoji_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bremoji_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C432E8DF4B341832589B253518ED2982 /* Pods-bremoji_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-bremoji_Tests"; path = Pods_bremoji_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BA793465C906E13C5A399FC1E5A7C6 /* Pods-bremoji_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bremoji_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CBB795282747C61DB710225B123B7960 /* Pods-bremoji_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bremoji_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CED75C89366B91F15BA52BE7B6D8394C /* Pods-bremoji_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bremoji_Tests.modulemap"; sourceTree = "<group>"; };
+		D0DF8C0726F14EEA6ED89DF5B9665BFF /* Pods-bremoji_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bremoji_Example.modulemap"; sourceTree = "<group>"; };
+		D16850FF1F27EF38F4E2B59343301127 /* Pods-bremoji_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bremoji_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D90DA9275FDE27F1CF5FAE87858870B3 /* bremoji.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = bremoji.modulemap; sourceTree = "<group>"; };
+		DD98CAAFEF764AE67498AC9F2F824F4C /* bremoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = bremoji.debug.xcconfig; sourceTree = "<group>"; };
+		EA6762453C196990EBF10789AD76F977 /* bremoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = bremoji.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73C2505FF6DB9B7903B151A67DEAFFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B350947030D6EE6D976BA21C39C2E56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C135219A5175F8A018AE0C5BF65FF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7447D4EFACF31FCE0E6240A759C49AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D7E8C245F214637D2AA6A3F98F4A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D823AF136BEBEF157D544B5D3073E11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF90FAD77EAF38D5E771897FBF9BDDE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				02AC1DD203E12ECEDAACC0A137039EC5 /* bremoji.podspec */,
+				80C109F8BD7980C1B053BAD9B7E9EC67 /* LICENSE */,
+				12DB0FB71DE69C6A21995F6E33F15933 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0E321B330156EFDAEB85F93E876A7CE7 /* bremoji */ = {
+			isa = PBXGroup;
+			children = (
+				4A2E92D0E9886821AF3F566427C1C8B4 /* ReplaceMe.swift */,
+				0AF90FAD77EAF38D5E771897FBF9BDDE /* Pod */,
+				725A01CD0D76B052B6466D6E2BE37FA5 /* Support Files */,
+			);
+			name = bremoji;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1BB9A352981DE3ABCC0E7D223BC9AC99 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E321B330156EFDAEB85F93E876A7CE7 /* bremoji */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2AF281419FF0A173218DDB942781C05C /* Pods-bremoji_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CED75C89366B91F15BA52BE7B6D8394C /* Pods-bremoji_Tests.modulemap */,
+				78D43F2F91A4C43C500724DF07368D92 /* Pods-bremoji_Tests-acknowledgements.markdown */,
+				87589A4526CD42B0A41F15D802716D7F /* Pods-bremoji_Tests-acknowledgements.plist */,
+				8AA3271FEE88A42F585BA1C4CDA12E06 /* Pods-bremoji_Tests-dummy.m */,
+				B550C079D71CDCCBF2E7208EF6A7B2FB /* Pods-bremoji_Tests-Info.plist */,
+				73C7071B011113DE3C5526613D0C9FF2 /* Pods-bremoji_Tests-umbrella.h */,
+				BC15A3864991D9C6028BB369BDD92D69 /* Pods-bremoji_Tests.debug.xcconfig */,
+				CBB795282747C61DB710225B123B7960 /* Pods-bremoji_Tests.release.xcconfig */,
+			);
+			name = "Pods-bremoji_Tests";
+			path = "Target Support Files/Pods-bremoji_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A1BEE376F9005EA76685B85E8868E85 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDACBD94EEF70FCE76E288A63242CF32 /* Pods-bremoji_Example */,
+				2AF281419FF0A173218DDB942781C05C /* Pods-bremoji_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		725A01CD0D76B052B6466D6E2BE37FA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D90DA9275FDE27F1CF5FAE87858870B3 /* bremoji.modulemap */,
+				629F92B4DAC0B711E704955210A3F2E7 /* bremoji-dummy.m */,
+				B2D5D3538DD2794B04636AFD3217414B /* bremoji-Info.plist */,
+				A40478B151B6751F2D77DF4AAC8D36DC /* bremoji-prefix.pch */,
+				8EB2186FFD295758610C47706B3CB34B /* bremoji-umbrella.h */,
+				DD98CAAFEF764AE67498AC9F2F824F4C /* bremoji.debug.xcconfig */,
+				EA6762453C196990EBF10789AD76F977 /* bremoji.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/bremoji";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1BB9A352981DE3ABCC0E7D223BC9AC99 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F059FB9D7847BE9FBEC4AF07F49C6A98 /* Products */,
+				5A1BEE376F9005EA76685B85E8868E85 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F059FB9D7847BE9FBEC4AF07F49C6A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A9BB74B9E6A0ADEB1406FBAF5AE21E /* bremoji */,
+				4BBDFDEF55D6C6F1050705DA0B17F68A /* Pods-bremoji_Example */,
+				C432E8DF4B341832589B253518ED2982 /* Pods-bremoji_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDACBD94EEF70FCE76E288A63242CF32 /* Pods-bremoji_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0DF8C0726F14EEA6ED89DF5B9665BFF /* Pods-bremoji_Example.modulemap */,
+				D16850FF1F27EF38F4E2B59343301127 /* Pods-bremoji_Example-acknowledgements.markdown */,
+				1F665A121A3454CD78CE5798252DB417 /* Pods-bremoji_Example-acknowledgements.plist */,
+				594D94C447B1670745BA6D2C823E7611 /* Pods-bremoji_Example-dummy.m */,
+				029E909628F58867383CD4A262ECC113 /* Pods-bremoji_Example-frameworks.sh */,
+				2F08E5E7629F153FA5CAF67B9AD4C806 /* Pods-bremoji_Example-Info.plist */,
+				5297B560E590570588243BF15EEE9ECC /* Pods-bremoji_Example-umbrella.h */,
+				B7BE306790168DDD7AF299857D4A1A2D /* Pods-bremoji_Example.debug.xcconfig */,
+				C9BA793465C906E13C5A399FC1E5A7C6 /* Pods-bremoji_Example.release.xcconfig */,
+			);
+			name = "Pods-bremoji_Example";
+			path = "Target Support Files/Pods-bremoji_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		257E12CCDB06E3F2B2F430D3B52DC3CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F70FD6B3AD05CEEBF4424CE434B53D /* Pods-bremoji_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19B716989E945C0A67D57B8496E3899 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7420B41EF6BA68982EDF924E2DB93CF /* Pods-bremoji_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A744DC4893251E39BFB0B07A21C78BC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90650152F65A774198F51955F4BF1EEE /* bremoji-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96FEFA2AA46AC8335121C3D1AAAA33CF /* Pods-bremoji_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BBC1014F39B4B1867A0401DDFFDAF4 /* Build configuration list for PBXNativeTarget "Pods-bremoji_Example" */;
+			buildPhases = (
+				A19B716989E945C0A67D57B8496E3899 /* Headers */,
+				D1A31A3FB0A8CA05FB741C32F06B4631 /* Sources */,
+				73C2505FF6DB9B7903B151A67DEAFFA2 /* Frameworks */,
+				69EF6F3B519D516A49DBA3915037485D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270696E8B319E350A2EAA751E3A37C5E /* PBXTargetDependency */,
+			);
+			name = "Pods-bremoji_Example";
+			productName = Pods_bremoji_Example;
+			productReference = 4BBDFDEF55D6C6F1050705DA0B17F68A /* Pods-bremoji_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E50501783B9CE0AC78CD01F8A7BAC6B /* bremoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CF19BCCC0E4317423C80DCB3C528FD /* Build configuration list for PBXNativeTarget "bremoji" */;
+			buildPhases = (
+				A744DC4893251E39BFB0B07A21C78BC4 /* Headers */,
+				C5CF1A7E60D2031C09CC863006AE1458 /* Sources */,
+				B9D7E8C245F214637D2AA6A3F98F4A25 /* Frameworks */,
+				E563952C0D18F5BEF6BD2632725C54D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bremoji;
+			productName = bremoji;
+			productReference = B0A9BB74B9E6A0ADEB1406FBAF5AE21E /* bremoji */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3AE16C0763D3C11B46B616006BBF21A /* Pods-bremoji_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940C1DC3CC21A042028601BC1A83A873 /* Build configuration list for PBXNativeTarget "Pods-bremoji_Tests" */;
+			buildPhases = (
+				257E12CCDB06E3F2B2F430D3B52DC3CB /* Headers */,
+				068031A3F741758E2C40FC013C60EF18 /* Sources */,
+				8C135219A5175F8A018AE0C5BF65FF65 /* Frameworks */,
+				72242FD7A891363ED4B4B8802C384FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0043482D6ABAB709A54A7FAA38EEB0 /* PBXTargetDependency */,
+			);
+			name = "Pods-bremoji_Tests";
+			productName = Pods_bremoji_Tests;
+			productReference = C432E8DF4B341832589B253518ED2982 /* Pods-bremoji_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F059FB9D7847BE9FBEC4AF07F49C6A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E50501783B9CE0AC78CD01F8A7BAC6B /* bremoji */,
+				96FEFA2AA46AC8335121C3D1AAAA33CF /* Pods-bremoji_Example */,
+				B3AE16C0763D3C11B46B616006BBF21A /* Pods-bremoji_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69EF6F3B519D516A49DBA3915037485D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72242FD7A891363ED4B4B8802C384FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E563952C0D18F5BEF6BD2632725C54D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068031A3F741758E2C40FC013C60EF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B2775F2BF896F91E32230A6611E793 /* Pods-bremoji_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CF1A7E60D2031C09CC863006AE1458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45458A01B3F3754ED9F4B8DD205CBEB /* bremoji-dummy.m in Sources */,
+				61A124C901E45B4D44F70368DE32BC15 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A31A3FB0A8CA05FB741C32F06B4631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0694948676834E3FAC9FF5216B37057 /* Pods-bremoji_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270696E8B319E350A2EAA751E3A37C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = bremoji;
+			target = 9E50501783B9CE0AC78CD01F8A7BAC6B /* bremoji */;
+			targetProxy = 9BF55F1F0E9B87A7D5AAD9B761B8853C /* PBXContainerItemProxy */;
+		};
+		2D0043482D6ABAB709A54A7FAA38EEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-bremoji_Example";
+			target = 96FEFA2AA46AC8335121C3D1AAAA33CF /* Pods-bremoji_Example */;
+			targetProxy = 21B06C11C621304846C6E0C7E2ACA408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D9AA2959F5CD70189A4C3D56E18B483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BE306790168DDD7AF299857D4A1A2D /* Pods-bremoji_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bremoji_Example/Pods-bremoji_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bremoji_Example/Pods-bremoji_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2866AB105BA5CE48E49375DAD3DEFE33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6762453C196990EBF10789AD76F977 /* bremoji.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/bremoji/bremoji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/bremoji/bremoji-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/bremoji/bremoji.modulemap";
+				PRODUCT_MODULE_NAME = bremoji;
+				PRODUCT_NAME = bremoji;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B2783B1A9CE50C7A13C58B7A5F2CA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC15A3864991D9C6028BB369BDD92D69 /* Pods-bremoji_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bremoji_Tests/Pods-bremoji_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bremoji_Tests/Pods-bremoji_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB80DB19A078B6ABC5B24D33A4440958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9BA793465C906E13C5A399FC1E5A7C6 /* Pods-bremoji_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bremoji_Example/Pods-bremoji_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bremoji_Example/Pods-bremoji_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D97D7B12EE9E0AEC6CCB61FD840FDF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD98CAAFEF764AE67498AC9F2F824F4C /* bremoji.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/bremoji/bremoji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/bremoji/bremoji-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/bremoji/bremoji.modulemap";
+				PRODUCT_MODULE_NAME = bremoji;
+				PRODUCT_NAME = bremoji;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E65A99BD1547A023F3AEFFA50B0AD98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB795282747C61DB710225B123B7960 /* Pods-bremoji_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bremoji_Tests/Pods-bremoji_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bremoji_Tests/Pods-bremoji_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23CF19BCCC0E4317423C80DCB3C528FD /* Build configuration list for PBXNativeTarget "bremoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97D7B12EE9E0AEC6CCB61FD840FDF4E /* Debug */,
+				2866AB105BA5CE48E49375DAD3DEFE33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940C1DC3CC21A042028601BC1A83A873 /* Build configuration list for PBXNativeTarget "Pods-bremoji_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2783B1A9CE50C7A13C58B7A5F2CA7C /* Debug */,
+				E65A99BD1547A023F3AEFFA50B0AD98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BBC1014F39B4B1867A0401DDFFDAF4 /* Build configuration list for PBXNativeTarget "Pods-bremoji_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9AA2959F5CD70189A4C3D56E18B483 /* Debug */,
+				CB80DB19A078B6ABC5B24D33A4440958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
