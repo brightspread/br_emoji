@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03734F6CB37B9755E75D9781 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		03734F6CB37B9755E75D9781 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3068B822069FE90F253D3F21 /* Pods-bremoji_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bremoji_Example.debug.xcconfig"; path = "Target Support Files/Pods-bremoji_Example/Pods-bremoji_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* bremoji_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bremoji_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* bremoji_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bremoji_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8577C5DEEDDBDB308611E62A /* bremoji.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = bremoji.podspec; path = ../bremoji.podspec; sourceTree = "<group>"; };
+		8577C5DEEDDBDB308611E62A /* bremoji.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = bremoji.podspec; path = ../bremoji.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		931EE7AF3242DAF884EA1BB1 /* Pods-bremoji_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bremoji_Tests.release.xcconfig"; path = "Target Support Files/Pods-bremoji_Tests/Pods-bremoji_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A3E594600EA18AA481E0BE /* Pods-bremoji_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bremoji_Example.release.xcconfig"; path = "Target Support Files/Pods-bremoji_Example/Pods-bremoji_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E548E683F0B978424ADF9DC5 /* Pods-bremoji_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bremoji_Tests.debug.xcconfig"; path = "Target Support Files/Pods-bremoji_Tests/Pods-bremoji_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9DDEB95F66B36817CEE3891 /* Pods_bremoji_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bremoji_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABBACA250C42A290C48CDFC /* Pods_bremoji_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bremoji_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAF4B9C338B5E46C99AE7D7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FAF4B9C338B5E46C99AE7D7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				E548E683F0B978424ADF9DC5 /* Pods-bremoji_Tests.debug.xcconfig */,
 				931EE7AF3242DAF884EA1BB1 /* Pods-bremoji_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

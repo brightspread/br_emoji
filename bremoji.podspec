@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'bremoji'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of bremoji.'
+  s.summary          = 'Bremoji supports emoji for text view.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'brightspread' => 'brightspread.jo@gmail.com' }
-  s.source           = { :git => 'https://github.com/brightspread/bremoji.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/brightspread/br_emoji.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

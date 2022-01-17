@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D823AF136BEBEF157D544B5D3073E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		52F70FD6B3AD05CEEBF4424CE434B53D /* Pods-bremoji_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C7071B011113DE3C5526613D0C9FF2 /* Pods-bremoji_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61A124C901E45B4D44F70368DE32BC15 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E92D0E9886821AF3F566427C1C8B4 /* ReplaceMe.swift */; };
+		61A124C901E45B4D44F70368DE32BC15 /* BremojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E92D0E9886821AF3F566427C1C8B4 /* BremojiView.swift */; };
 		7B350947030D6EE6D976BA21C39C2E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		90650152F65A774198F51955F4BF1EEE /* bremoji-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB2186FFD295758610C47706B3CB34B /* bremoji-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45458A01B3F3754ED9F4B8DD205CBEB /* bremoji-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F92B4DAC0B711E704955210A3F2E7 /* bremoji-dummy.m */; };
@@ -38,11 +38,11 @@
 
 /* Begin PBXFileReference section */
 		029E909628F58867383CD4A262ECC113 /* Pods-bremoji_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bremoji_Example-frameworks.sh"; sourceTree = "<group>"; };
-		02AC1DD203E12ECEDAACC0A137039EC5 /* bremoji.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = bremoji.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		12DB0FB71DE69C6A21995F6E33F15933 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		02AC1DD203E12ECEDAACC0A137039EC5 /* bremoji.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = bremoji.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		12DB0FB71DE69C6A21995F6E33F15933 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F665A121A3454CD78CE5798252DB417 /* Pods-bremoji_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bremoji_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F08E5E7629F153FA5CAF67B9AD4C806 /* Pods-bremoji_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bremoji_Example-Info.plist"; sourceTree = "<group>"; };
-		4A2E92D0E9886821AF3F566427C1C8B4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = bremoji/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4A2E92D0E9886821AF3F566427C1C8B4 /* BremojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BremojiView.swift; path = bremoji/Classes/BremojiView.swift; sourceTree = "<group>"; };
 		4BBDFDEF55D6C6F1050705DA0B17F68A /* Pods-bremoji_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-bremoji_Example"; path = Pods_bremoji_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5297B560E590570588243BF15EEE9ECC /* Pods-bremoji_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bremoji_Example-umbrella.h"; sourceTree = "<group>"; };
 		594D94C447B1670745BA6D2C823E7611 /* Pods-bremoji_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bremoji_Example-dummy.m"; sourceTree = "<group>"; };
@@ -50,11 +50,11 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73C7071B011113DE3C5526613D0C9FF2 /* Pods-bremoji_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bremoji_Tests-umbrella.h"; sourceTree = "<group>"; };
 		78D43F2F91A4C43C500724DF07368D92 /* Pods-bremoji_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bremoji_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		80C109F8BD7980C1B053BAD9B7E9EC67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		80C109F8BD7980C1B053BAD9B7E9EC67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		87589A4526CD42B0A41F15D802716D7F /* Pods-bremoji_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bremoji_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8AA3271FEE88A42F585BA1C4CDA12E06 /* Pods-bremoji_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bremoji_Tests-dummy.m"; sourceTree = "<group>"; };
 		8EB2186FFD295758610C47706B3CB34B /* bremoji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "bremoji-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A40478B151B6751F2D77DF4AAC8D36DC /* bremoji-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "bremoji-prefix.pch"; sourceTree = "<group>"; };
 		B0A9BB74B9E6A0ADEB1406FBAF5AE21E /* bremoji */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = bremoji; path = bremoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D5D3538DD2794B04636AFD3217414B /* bremoji-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "bremoji-Info.plist"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		0E321B330156EFDAEB85F93E876A7CE7 /* bremoji */ = {
 			isa = PBXGroup;
 			children = (
-				4A2E92D0E9886821AF3F566427C1C8B4 /* ReplaceMe.swift */,
+				4A2E92D0E9886821AF3F566427C1C8B4 /* BremojiView.swift */,
 				0AF90FAD77EAF38D5E771897FBF9BDDE /* Pod */,
 				725A01CD0D76B052B6466D6E2BE37FA5 /* Support Files */,
 			);
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A45458A01B3F3754ED9F4B8DD205CBEB /* bremoji-dummy.m in Sources */,
-				61A124C901E45B4D44F70368DE32BC15 /* ReplaceMe.swift in Sources */,
+				61A124C901E45B4D44F70368DE32BC15 /* BremojiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,8 +622,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
