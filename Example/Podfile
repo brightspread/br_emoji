@@ -8,6 +8,5 @@ target 'bremoji_Example' do
   target 'bremoji_Tests' do
     inherit! :search_paths
 
-    
   end
 end

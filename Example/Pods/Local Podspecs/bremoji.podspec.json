@@ -1,9 +1,10 @@
 {
   "name": "bremoji",
   "version": "0.1.0",
-  "summary": "A short description of bremoji.",
+  "summary": "Bremoji supports emoji for text view.",
+  "swift_versions": "4.0",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/brightspread/bremoji",
+  "homepage": "https://github.com/brightspread/br_emoji",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,12 @@
     "brightspread": "brightspread.jo@gmail.com"
   },
   "source": {
-    "git": "https://github.com/brightspread/bremoji.git",
+    "git": "https://github.com/brightspread/br_emoji.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "bremoji/Classes/**/*"
+  "source_files": "bremoji/Classes/**/*",
+  "swift_version": "4.0"
 }
