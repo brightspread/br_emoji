@@ -2,15 +2,20 @@ PODS:
   - bremoji (0.1.0)
 
 DEPENDENCIES:
-  - bremoji (from `../`)
+  - bremoji (from `https://github.com/brightspread/br_emoji.git`)
 
 EXTERNAL SOURCES:
   bremoji:
-    :path: "../"
+    :git: https://github.com/brightspread/br_emoji.git
+
+CHECKOUT OPTIONS:
+  bremoji:
+    :commit: 38fd9a25ee02cb60da5cfb4bc5b85099db346a2c
+    :git: https://github.com/brightspread/br_emoji.git
 
 SPEC CHECKSUMS:
-  bremoji: 079cda29f50fe3f5243daa0860a0a8fafe9045f9
+  bremoji: 591c4d22a04ac1576070edcba933eaf154721a0c
 
-PODFILE CHECKSUM: cc97d01c8e14fd70e0eef76aeafe32f1bb330bed
+PODFILE CHECKSUM: 4f7ddf4deac0c2f78f0526f0585e541133b224cd
 
 COCOAPODS: 1.11.2

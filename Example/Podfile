@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'bremoji_Example' do
-  pod 'bremoji', :path => '../'
+  pod 'bremoji', :git => 'https://github.com/brightspread/br_emoji.git'
 
   target 'bremoji_Tests' do
     inherit! :search_paths
